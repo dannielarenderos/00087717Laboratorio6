@@ -21,13 +21,13 @@ EndElements
 Dirichlet
 *Set Cond Dirichlet *nodes
 *loop nodes *OnlyInCond
-*NodesNum *cond(T,real)
+*NodesNum *cond(u,real)
 *end nodes
 EndDirichlet
 
 Neumann
 *Set Cond Neumann *nodes
 *loop nodes *OnlyInCond
-*NodesNum *cond(dTdn,real)
+*NodesNum *cond(dudn,real)
 *end nodes
 EndNeumann
